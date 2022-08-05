@@ -1,4 +1,4 @@
-package com.eatgao.alienclass;
+package com.eatgao.alienclass.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -7,12 +7,10 @@ import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
-import android.widget.Toolbar;
 
+import com.eatgao.alienclass.R;
 import com.eatgao.alienclass.databinding.ActivityMainBinding;
-
-import java.util.Objects;
+import com.eatgao.alienclass.fragments.TimeTableFragment;
 
 public class MainActivity extends AppCompatActivity {
 
