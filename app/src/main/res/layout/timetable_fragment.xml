@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <GridLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.7"
+        android:rowCount="19"
+        android:background="#FFFAFA"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_rowWeight="0.25"
+            android:text="Time"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:text="06:00"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:text="07:00"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:text="08:00"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:text="09:00"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:text="10:00"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:text="11:00"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:text="12:00"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:text="13:00"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:text="14:00"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:text="15:00"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:text="16:00"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:text="17:00"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:text="18:00"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:text="19:00"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:text="20:00"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:text="21:00"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:text="22:00"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:text="23:00"
+            android:gravity="center"/>
+
+
+
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/d1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:rowCount="19"
+        android:background="#FFFAFA"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="0.25"
+            android:text="@string/monday"
+            android:layout_row="0"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:autoSizeMaxTextSize="30sp"
+            android:autoSizeMinTextSize="5sp"
+            android:autoSizeStepGranularity="1sp" />
+
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/d2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:rowCount="19"
+        android:background="#FFFAFA"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="0.25"
+            android:layout_row="0"
+            android:textAlignment="center"
+            android:text="@string/tuesday"
+            android:textSize="20dp" />
+
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/d3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:rowCount="19"
+        android:background="#FFFAFA"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="0.25"
+            android:layout_row="0"
+            android:textAlignment="center"
+            android:text="@string/wednesday"
+            android:textSize="20dp" />
+
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/d4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:rowCount="19"
+        android:background="#FFFAFA"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="0.25"
+            android:layout_row="0"
+            android:textAlignment="center"
+            android:text="@string/thursday"
+            android:textSize="20dp" />
+
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/d5"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:rowCount="19"
+        android:background="#FFFAFA"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="0.25"
+            android:layout_row="0"
+            android:textAlignment="center"
+            android:text="@string/friday"
+            android:textSize="20dp" />
+
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/d6"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#FFFAFA"
+        android:rowCount="19"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="0.25"
+            android:text="@string/saturday"
+            android:textSize="20dp"
+            android:layout_row="0"
+            android:textAlignment="center"/>
+
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/d7"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:rowCount="19"
+        android:background="#FFFAFA"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_rowWeight="0.25"
+
+            android:text="@string/sunday"
+            android:textSize="20dp"
+            android:layout_row="0"
+            android:textAlignment="center"/>
+
+
+    </GridLayout>
+</LinearLayout>
