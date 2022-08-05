@@ -1,6 +1,9 @@
 package com.eatgao.alienclass;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
 import android.view.View;
@@ -22,7 +25,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(view);
 
         setSupportActionBar(binding.toolbar);
-        binding.toolbar.setTitleTextAppearance(this, R.style.Toolbar_TitleText);
-        Objects.requireNonNull(getSupportActionBar()).setTitle("Timetable");
+        // binding.toolbar.setTitleTextAppearance(this, R.style.Toolbar_TitleText);
+        // Objects.requireNonNull(getSupportActionBar()).setTitle("Timetable");
+        replaceFragment(new TimeTableFragment());
+    }
+
+    private void replaceFragment(Fragment nextFragment) {
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.replace(R.id.fragment_container_view, nextFragment);
+        fragmentTransaction.commit();
     }
 }
