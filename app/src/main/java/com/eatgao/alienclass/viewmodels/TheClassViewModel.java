@@ -18,6 +18,6 @@ public class TheClassViewModel extends AndroidViewModel {
     public TheClassViewModel(@NonNull Application application) {
         super(application);
         classRepository = new TheClassRepository(application);
-        allClass = classRepository.getAll();
+        allClass = classRepository.getAllClass();
     }
 }

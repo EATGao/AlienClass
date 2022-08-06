@@ -26,7 +26,7 @@ public interface TheClassDAO {
     @Delete
     void delete(TheClass theClass);
     @Update
-    void updateBook(TheClass theClass);
+    void updateClass(TheClass theClass);
     @Query("DELETE FROM theclass")
     void deleteAll();
 }

@@ -21,7 +21,7 @@ public class TheClassRepository {
         allClass = classDao.getAll();
     }
 
-    public LiveData<List<TheClass>> getAll() {
+    public LiveData<List<TheClass>> getAllClass() {
         return allClass;
     }
 
@@ -38,8 +38,8 @@ public class TheClassRepository {
     public void delete(final TheClass theClass){
         TheClassDatabase.databaseWriteExecutor.execute(() -> classDao.delete(theClass));
     }
-    public void updateBook(final TheClass theClass){
-        TheClassDatabase.databaseWriteExecutor.execute(() -> classDao.updateBook(theClass));
+    public void updateTheClass(final TheClass theClass){
+        TheClassDatabase.databaseWriteExecutor.execute(() -> classDao.updateClass(theClass));
     }
     @RequiresApi(api = Build.VERSION_CODES.N)
     public CompletableFuture<TheClass> findByIdFuture(final int classId) {
